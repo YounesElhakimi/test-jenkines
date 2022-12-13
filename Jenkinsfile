@@ -7,7 +7,7 @@ node {
          stage('Clone Repo') {
             // for display purposes
             // Get some code from a GitHub repository
-            git url: 'https://gitlab.com/youneselhakimi00/springboot-demodeploy-test.git',
+            git url: 'https://github.com/YounesElhakimi/test-jenkines.git',
                 credentialsId: 'springdeploy-user',
                 branch: 'main'
          }
